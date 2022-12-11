@@ -1,0 +1,178 @@
+/* header */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+
+header #togi {
+    background-color: white;
+    position: fixed;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-brand {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin-left: 7rem;
+    position: sticky;
+    font-variant-caps: petite-caps;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    /* background-image: url('/images/navbarwallpaper2.jpg'); */
+    background: currentColor;
+}
+
+header .container-fluid {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100px;
+    position: fixed;
+    margin-top: 0;
+
+}
+
+header .container-fluid #togicon {
+    color: white;
+}
+
+.navbar #rose {
+    height: 75px;
+    width: 30px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.navbar-nav a {
+    color: white;
+}
+
+.icons_mv li {
+    display: inline;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.icons_mv {
+    margin-right: 7rem;
+}
+
+.icons_mv li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.nav-item a {
+    font-size: 17px;
+}
+/* header end */
+.container{
+    margin-top: 8rem;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+.card{
+    width: 260px;
+    height: 380px;
+}
+.col{
+    width: 24.333333%;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+    border-bottom: 2px solid #7f7f7f;
+
+}
+
+.card-body li{
+    display: inline;
+    list-style: none;
+}
+
+.card-body #price{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 55px;
+}
+
+.card-body #buybtn{
+    float: right;
+    border-radius: 1rem;
+    height: 30px;
+    width: 4rem;
+    padding: 0;
+    margin-top: 1rem;
+
+}
+#add{
+    width: 15px;
+    height: 15px;
+}
+
+/* footer */
+.footer .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background: black;
+}
+
+.footer .box-container .box {
+    flex: 1 1 17rem;
+    margin-left: 4rem;
+}
+
+.footer .box-container .box h3 {
+    color: #777;
+    font-size: 30px;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a {
+    display: block;
+    color: #666;
+    font-size: 20px;
+    padding: 4px 0;
+}
+
+.footer .box-container .box a:hover {
+    color: #a340ff;
+    text-decoration: underline;
+}
+
+.footer .box-container .box img {
+    margin-top: 1rem;
+}
+
+.footer .credit {
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    padding-top: 2.5rem;
+    font-size: 22px;
+    color: #333;
+    border-top: .1rem solid rgba(0, 0, 0, .1);
+    padding-bottom: 3rem;
+}
+
+.footer .credit span {
+    color: #a340ff;
+    font-weight: 600;
+}
+
+/* footer end */

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful FlowerGifts</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <script src="/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap" rel="stylesheet">
+    <!-- flipster -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="/jquery.flipster.min.js"></script>
+    <link rel="stylesheet" href="/jquery.flipster.min.css">
+</head>
+
+<body>
+
+    <!-- header section starts -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <button id="togi" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" id="logo" href="#">FlowerGifts<span><img id="rose" src="/images/nav-log.jpg"
+                            alt=""></span></a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Review</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="icons_mv">
+                        <li class="nav-icons">
+                            <a href="#" class="fas fa-heart"></a>
+                        </li>
+                        <li class="nav-icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                        </li>
+                        <li class="nav-icons">
+                            <a href="#" class="fas fa-user"></a>  
+                        </li>
+                        <li class="nav-icons">
+                            <a href="login.html" id="logout" class="fas fa-sign-out-alt"></a>  
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="home">
+            <div class="content">
+                <h3>fresh flowers</h3>
+                <span> natural & beautiful flowers</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae laborum ut minus corrupti dolorum
+                    dolore assumenda iste voluptate dolorem pariatur.</p>
+                <a href="#" id="btn1"><button type="button" class="btn btn-dark" id="btn2">Shop Now</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="hero">
+
+                <img src="/images/best-cat-back.webp" id="cat-back">
+
+                <div class="cat" id="coverflow">
+                    <h1 id="cat-title">Category</h1>
+                    <ul class="flip-items">
+                        <li>
+                            <a href="dryflower.html">
+                                <h3>Dry Flowers</h3><img src="/images/cat-card1.webp">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="freshflower.html">
+                                <h3>Fresh Flowers</h3><img src="/images/cat-card2.jpg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="flowerplant.html">
+                                <h3>Flower Plants</h3><img src="/images/cat-card4.jpg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="bouquet.html" active>
+                                <h3>Bouquets</h3><img src="/images/cat-card6.jpg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="wreath.html">
+                                <h3>Wreath</h3><img src="/images/cat-card3.jpg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="flowerbasket.html">
+                                <h3>Flower Basket</h3><img src="/images/cat-card5.webp">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- gallery script -->
+                <script>
+                    $(".cat").flipster({
+                        style: 'carousel',
+                        spacing: -0.3,
+                    });
+                </script>
+                <!-- gallery script end -->
+            </div>
+            <!-- icons section starts  -->
+
+            <section class="icons-container">
+
+                <div class="icons">
+                    <img src="/images/icon-1.png" alt="">
+                    <div class="info">
+                        <h3>free delivery</h3>
+                        <span>on all orders</span>
+                    </div>
+                </div>
+
+                <div class="icons">
+                    <img src="/images/icon-2.png" alt="">
+                    <div class="info">
+                        <h3>10 days returns</h3>
+                        <span>moneyback guarantee</span>
+                    </div>
+                </div>
+
+                <div class="icons">
+                    <img src="/images/icon-3.png" alt="">
+                    <div class="info">
+                        <h3>offer & gifts</h3>
+                        <span>on all orders</span>
+                    </div>
+                </div>
+
+                <div class="icons">
+                    <img src="/images/icon-4.png" alt="">
+                    <div class="info">
+                        <h3>secure paymens</h3>
+                        <span>protected by paypal</span>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- icons section ends -->
+
+            <!-- Product -->
+            <div class="col-md-3 product">
+                <img src="/images/pro-back1.jpg">
+                <h3>Products</h3>
+            </div>
+            <div class="col-md-9 innerbox">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="/images/bouquet/bouquet_11.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bouquets</h5>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="/images/flowerbasket/flowerbasket_11.webp" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Flower Baskets</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="/images/dryflower/dry_2.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Dry Flowers</h5>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="/images/freshflowers/freshflower_5.jpeg" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Fresh Flowers</h5>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="/images/wreath/wreath_4.webp" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Wreaths</h5>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="/images/flowerplants/flowerplant_12.jpg" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Flower Plants</h5>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="/images/bouquet/bouquet_12.webp" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bouquets</h5>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="/images/flowerplants/flowerplant_7.jpg" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Flower Plants</h5>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="/images/flowerbasket/flowerbasket_8.jpg" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Flower Baskets</h5>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about" id="about">
+                <div class="heading">
+                    <h1><span id="about1"> About </span> us </h1>
+                </div>
+
+                <div class="row">
+
+                    <div class="video-container">
+                        <video src="/images/about-vid.mp4" loop autoplay muted></video>
+                        <h3>best flower sellers</h3>
+                    </div>
+
+                    <div class="content">
+                        <h3>why choose us?</h3>
+                        <p>Flowers are a gift to this earth. As Gerard De Nerval once said, “Every flower is a soul
+                            blossoming in nature.” They paint contrasting colors along the ground and bring joy to
+                            many. Their elegance and delicate touches have us all in awe and exhilaration.</p>
+                        <p>This is often why flowers are seen as loving gifts for the special people in our lives,
+                            and the reaction of the person receiving the flowers is priceless.</p>
+                        <a href="#"><button type="button" class="btn btn-dark" id=learnbtn>Learn More</button></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- contact section starts  -->
+
+            <section class="contact" id="contact">
+
+                <div class="heading">
+                    <h1><span id="about1"> Contact </span> us </h1>
+                </div>
+
+                <div class="row">
+
+                    <form action="">
+                        <input type="text" placeholder="name" class="box">
+                        <input type="email" placeholder="email" class="box">
+                        <input type="number" placeholder="number" class="box">
+                        <textarea name="" class="box" placeholder="message" id="" cols="20" rows="10"></textarea>
+                        <input type="submit" value="send message" class="btn btn-dark" id="sendbtn">
+                    </form>
+
+                    <div class="image">
+                        <img src="/images/contact-img.svg" alt="">
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- contact section ends -->
+
+        </div>
+        <!--row end-->
+
+    </div>
+    <!--container end-->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">products</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#">my account</a>
+                <a href="#">my order</a>
+                <a href="#">my favorite</a>
+            </div>
+
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">japan</a>
+                <a href="#">france</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+123-456-7890</a>
+                <a href="#">example@gmail.com</a>
+                <a href="#">mumbai, india - 400104</a>
+                <img src="/images/payment.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span id="developername"> mr. shashikant p </span> | all rights reserved </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+</body>
+
+</html>
