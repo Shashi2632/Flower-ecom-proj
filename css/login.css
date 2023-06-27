@@ -69,8 +69,8 @@ body {
     font-size: 14px;
     padding-left: 5px;
     padding-right: 5px;
-    /* background-color: #e8ecf2; */
-    background-color: none;
+    background-color: #281a3e;
+    /* background-color: none; */
     backdrop-filter: blur(25px);
 }
 
